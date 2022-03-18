@@ -1,0 +1,343 @@
+body{
+	background-color: #E9E7D8;
+	font-size:120%;
+}
+
+ul{
+	background-color: #C2C2C2;
+	border: 2px outset #CCC;
+	margin:0;
+	padding:0;
+	font-size:25px;
+	list-style-type: none;
+	text-align: center;
+	overflow: hidden;
+	display: inline;
+}
+
+li {
+	display: inline;
+	}
+
+li a {
+		padding: 2px 10px;
+		display: inline-block;
+		color: black;
+		text-align: center;
+		text-decoration: none;
+		display: inline-block;
+		border: 2px outset #CCC;	
+		
+	}
+
+li a:hover {
+	background-color:#6ab0fc;
+	  display: inline-block;
+}
+
+#menu{
+
+	 font-weight: bolder;
+	 display: flex;
+	 justify-content: center;
+
+}
+
+h2
+{
+	margin:2px;
+}
+
+iframe
+{
+	width:605px;
+	height:400px;
+}
+
+.window
+{
+	background-color: #C2C2C2;
+	border:3px outset #CCC;
+	margin:0 auto;
+}
+.title-bar {
+    align-items: center;
+	color:white;
+    background: linear-gradient(90deg,navy,#1084d0);
+    display: flex;
+    justify-content: space-between;
+   padding: 4px 3px 4px 3px;
+}
+
+#WrapperConfigGame
+{
+	clear:both;
+}
+
+.side
+{
+	float:left;
+	/*height:max(105vh, 550px);*/
+	width:max(49%, 400px);
+	margin:3vh auto;
+}
+
+
+#configWindow
+{
+	/*width:max(40%,185px);*/
+	width: 400px;
+	margin:0 auto;
+	padding:4px;
+	margin-top:5vh;
+	margin-bottom: 50px;
+}
+
+.dim
+{
+	width:5ch;
+}
+
+#gameWindow
+{
+	width:700px;
+	height: 500px;
+	margin:0 auto;
+	padding:4px;
+	margin-top:5vh;
+	position: relative;
+
+	-webkit-touch-callout: none; /* iOS Safari */
+	  -webkit-user-select: none; /* Safari */
+	   -khtml-user-select: none; /* Konqueror HTML */
+		 -moz-user-select: none; /* Firefox */
+		  -ms-user-select: none; /* Internet Explorer/Edge */
+			  user-select: none; /* Non-prefixed version, currently
+									supported by Chrome and Opera */
+}
+
+@font-face {
+  font-family: clockFont;
+  src: url(DS-DIGI.TTF);
+}
+
+#timer{
+	
+	width: 148px;
+	font-family:clockFont;
+	font-size:120%;
+	margin:5px;
+	float:left;
+	color:lime;
+	border:3px inset #CCC;
+	background-color:black;
+}
+
+.counter{
+	font-family: clockFont;
+	font-size:120%;
+	margin:5px;
+	text-align:right;
+	width: 102px;
+	height: 23px;
+	
+	float:right;
+	color:lime;
+	border:3px inset #CCC;
+	background-color:black;
+}
+
+/*#trapacaBotao
+{
+	position:absolute; 
+	bottom:5px;
+	left:5px;
+}*/
+
+#resetButton
+{
+	margin: 8px auto;
+}
+
+/*#tileCount{
+	font-family: clockFont;
+	font-size:120%;
+	margin:5px;
+	text-align:left;
+	width:120px;
+	float:right;
+	color:lime;
+	border:3px inset #CCC;
+	background-color:black;
+}*/
+
+/*input[type=number] {
+	width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  }
+  input[type=number]:focus {
+	border: 3px solid #555;
+  }*/
+
+
+
+#historico{
+	clear:both;
+	width:400px;
+	padding:4px;
+}
+
+
+
+#historico tr{
+		background-color: white;
+		
+}
+
+#historico table{
+	
+	font-size: 85%;
+	margin:6px;
+	text-align:center;
+	color:black;
+	margin-left: auto;
+	margin-right: auto;
+	background-color:#c4c4c4;
+}	
+	
+#historico table, th, td {
+		border-width:3px;
+		border-style:inset;
+		border-color:#CCC;
+		border-collapse: collapse;
+	}
+
+/*#botaolink{
+    background-color:rgb(239, 239, 239);
+    color: black;
+    padding: 0px 10px;
+	border:0.01vh solid rgb(79,79,79);
+	border-radius:0.2vh;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+  }*/
+  
+#botaolink:active {
+    background-color: rgb(229,229,229);
+  }
+
+
+
+
+#tabela {
+	font-family:Arial, Helvetica, sans-serif;
+	/*cursor:pointer;*/
+	margin:0 auto;
+	border: 4px inset #afafaf;
+	border-spacing: 0px;
+}
+
+
+.blocked {
+
+	text-align: center;
+	font-size: 79%;
+	width: 21px;
+	height: 21px;
+	border-width:3px;
+	border-style:outset;
+	border-color:#CCC  
+}
+
+.revelado
+{
+	background-color: #AAA;
+	color: #AAA;
+	text-align: center;
+	font-size: 79%;
+	width: 26px;
+	height: 26px;
+	border-width:1px;
+	
+	border-style:solid;
+	border-top-style: none;
+	border-left-style: none;
+	border-color:#666;
+}
+
+.blank
+{
+	background-color: #AAA;
+	color: #AAA;
+	text-align: center;
+	font-size: 79%;
+	width: 26px;
+	height: 26px;
+	border-width:1px;
+	
+	border-style:solid;
+	border-top-style: none;
+	border-left-style: none;
+	border-color:#666;
+}
+
+.flag
+{
+	text-align: center;
+	font-size: 79%;
+	width: 21px;
+	height: 21px;
+	border-width:3px;
+	border-style:outset;
+	border-color:#CCC  
+}
+
+.n1 {
+    color: blue;
+	
+}
+.n2 {
+    color: green;
+}
+.n3 {
+    color: red;
+}
+.n4 {
+    color: maroon;
+}
+.n5 {
+    color: blueviolet;
+}
+.n6 {
+    color: darkgoldenrod;
+}
+.n7 {
+    color: orange;
+}
+.n8 {
+	color: blue;
+	background-color: gold !important;
+	border-color: goldenrod  !important;
+	font-weight: bolder
+}
+
+
+/*copiado de https://stackoverflow.com/questions/3779534/how-do-i-disable-text-selection-with-css-or-javascript */
+.noselect 
+{
+	-webkit-touch-callout: none; /* iOS Safari */
+	  -webkit-user-select: none; /* Safari */
+	   -khtml-user-select: none; /* Konqueror HTML */
+		 -moz-user-select: none; /* Firefox */
+		  -ms-user-select: none; /* Internet Explorer/Edge */
+			  user-select: none; /* Non-prefixed version, currently
+									supported by Chrome and Opera */
+}
+
+.coluna_tempo
+{
+	font-size: 80%;
+}

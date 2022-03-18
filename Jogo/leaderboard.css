@@ -1,0 +1,39 @@
+
+#body_leader{
+   
+    margin: 0 auto;
+    width: 480px;
+    padding: 4px;
+  
+} 
+
+tr{
+        background-color: white;
+}
+
+#historico table{
+
+    margin:6px;
+    width: 400px;
+    text-align:center;
+    color:black;
+    margin:0 auto;
+    background-color:#c4c4c4;
+    border-collapse: collapse;
+}
+
+#historico table,th,td {
+        text-align:center;
+        border-width:3px;
+        border-style:inset;
+        border-color:#CCC;
+        margin:0 auto;   
+    }
+
+table {
+    margin:0 auto;
+}
+.coluna_tempo
+{
+    font-size: 80% !important;
+}
